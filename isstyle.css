@@ -1,0 +1,106 @@
+body
+{
+   background-color: FFDEAD;
+}
+p
+{
+    color:red;
+    font-family:times new roman;
+    font-size:160%
+}
+input[type=text]
+{   
+    color:red;
+    text-align:center;
+    width:20%;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing:border-box;
+    border-radius: 25px;
+    background-image: url('index.png');
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus
+{
+    width:70%;
+    background-color:white;
+    border:3px solid #555;
+}
+input[type=password]
+{   
+    color:red;
+    text-align:center;
+    width:20%;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing:border-box;
+    border-radius: 25px;
+    background-image: url('index1.png');
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=password]:focus
+{
+    width:70%;
+    background-color:white;
+    border:3px solid #555;
+}
+button
+{
+  background-color: #4CAF20;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+fieldset
+{
+  border-radius:8px;
+  border:3px solid #555;
+}
+button:hover
+{
+  background-color: green;
+}
+input[type=reset]
+{
+  background-color: #12CF10;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=reset]:hover
+{
+  background-color: green;
+}
